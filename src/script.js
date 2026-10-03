@@ -1,9 +1,11 @@
 const modal = document.querySelector("dialog");
 
 if (localStorage.getItem("cookies") !== "true") {
-    window.addEventListener("DOMContentLoaded", () => {
-        modal.showModal();
-    });
+    if (document.readyState === "loading") {
+        window.addEventListener("DOMContentLoaded", () => {
+            modal.showModal();
+        });
+    }
 }
 
 const closeModalBtn = document.querySelectorAll(".close-modal-btn");
