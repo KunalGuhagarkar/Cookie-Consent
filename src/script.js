@@ -15,7 +15,8 @@ closeModalBtn.forEach((item) => {
     item.addEventListener("click", () => {
         modal.close();
         localStorage.setItem("cookies", "true");
+        console.log(localStorage.getItem("cookies"));
     });
 });
 
-console.log(localStorage);
+console.log(localStorage.getItem("cookies"));
