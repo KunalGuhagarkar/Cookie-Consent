@@ -5,7 +5,7 @@
 }
 
 dialog {
-    position: absolute;
+    position: fixed;
     top: 55vh;
     left: 155vh;
     border: none;
