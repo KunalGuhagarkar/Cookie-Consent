@@ -2,9 +2,11 @@ const modal = document.querySelector("dialog");
 
 localStorage.setItem("cookies", false);
 
-window.addEventListener("DOMContentLoaded", () => {
-    modal.showModal();
-});
+if (!localStorage.getItem("cookies")) {
+    window.addEventListener("DOMContentLoaded", () => {
+        modal.showModal();
+    });
+}
 
 const closeModalBtn = document.querySelectorAll(".close-modal-btn");
 
@@ -13,5 +15,3 @@ closeModalBtn.forEach((item) => {
         modal.close();
     });
 });
-
-
