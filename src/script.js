@@ -1,6 +1,6 @@
 const modal = document.querySelector('dialog');
 
-modal.addEventListener('DOMContentLoaded', () => {
+window.addEventListener('DOMContentLoaded', () => {
     modal.showModal();
 });
 
