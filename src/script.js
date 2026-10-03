@@ -2,9 +2,7 @@ const modal = document.querySelector("dialog");
 
 localStorage.setItem("cookies", false);
 
-console.log(Boolean(localStorage.getItem("cookies")));
-
-if (Boolean(localStorage.getItem("cookies"))) {
+if (localStorage.getItem("cookies") === "false") {
     window.addEventListener("DOMContentLoaded", () => {
         modal.showModal();
     });
