@@ -1,6 +1,8 @@
 const modal = document.querySelector("dialog");
 
-localStorage.setItem("cookies", "false");
+if (localStorage.getItem("cookies") === null) {
+    localStorage.getItem("cookies", "false");
+}
 
 if (localStorage.getItem("cookies") === "false") {
     console.log(localStorage.getItem("cookies"));
