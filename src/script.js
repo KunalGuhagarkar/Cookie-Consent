@@ -1,5 +1,7 @@
 const modal = document.querySelector("dialog");
 
+localStorage.setItem("cookies", false);
+
 window.addEventListener("DOMContentLoaded", () => {
     modal.showModal();
 });
@@ -13,4 +15,3 @@ closeModalBtn.forEach((item) => {
 });
 
 
-localStorage.setItem("cookies", true);
