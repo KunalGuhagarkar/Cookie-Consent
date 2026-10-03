@@ -5,4 +5,8 @@ window.addEventListener('DOMContentLoaded', () => {
 });
 
 const closeModalBtn = document.getElementsByClassName('close-modal-btn');
-console.log(closeModalBtn);
+
+
+closeModalBtn.forEach(item => {
+    
+});
