@@ -24,5 +24,7 @@
 }
 
 .cookie-container > button {
-    
+    align-self: center;
+    height: 20px;
+    width: 80%;
 }
