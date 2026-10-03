@@ -20,3 +20,4 @@ closeModalBtn.forEach((item) => {
 });
 
 console.log(localStorage.getItem("cookies"));
+// localStorage.removeItem("cookies");
