@@ -4,6 +4,10 @@
     box-sizing: border-box;
 }
 
+dialog {
+    border: none;
+}
+
 .cookie-container {
     border: 2px solid black;
     width: 350px;
@@ -40,7 +44,7 @@
 
 .cookie-container > p {
     width: 60%;
-    margin-top: 70px;
+    margin-top: 50px;
     margin-left: 40px;
     font-size: 2rem;
 }
