@@ -5,6 +5,8 @@ if (localStorage.getItem("cookies") !== "true") {
         window.addEventListener("DOMContentLoaded", () => {
             modal.showModal();
         });
+    } else {
+        modal.showModal();
     }
 }
 
