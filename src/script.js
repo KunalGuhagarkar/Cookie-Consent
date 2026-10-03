@@ -16,3 +16,5 @@ closeModalBtn.forEach((item) => {
         localStorage.setItem("cookies", true);
     });
 });
+
+console.log(localStorage);
