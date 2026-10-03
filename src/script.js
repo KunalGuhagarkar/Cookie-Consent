@@ -9,5 +9,7 @@ console.log(closeModalBtn);
 
 
 closeModalBtn.forEach(item => {
-    
+    item.addEventListener('click', () => {
+        modal.close();
+    })
 });
