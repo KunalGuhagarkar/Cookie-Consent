@@ -1,0 +1,11 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.cookie-container {
+    background-color: red;
+    width: 400px;
+    height: 500px;
+}
