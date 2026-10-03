@@ -24,7 +24,6 @@ dialog {
 .inner-container {
     display: flex;
     justify-content: space-between;
-    
 }
 
 .inner-container > button {
