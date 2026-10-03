@@ -6,8 +6,8 @@
 
 dialog {
     position: absolute;
-    top: 50vh;
-    left: 50vh;
+    display: flex;
+    
     border: none;
 }
 
