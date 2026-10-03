@@ -4,7 +4,8 @@ window.addEventListener('DOMContentLoaded', () => {
     modal.showModal();
 });
 
-const closeModalBtn = document.getElementsByClassName('close-modal-btn');
+const closeModalBtn = document.querySelectorAll('.close-modal-btn');
+console.log(closeModalBtn);
 
 
 closeModalBtn.forEach(item => {
