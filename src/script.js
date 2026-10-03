@@ -4,7 +4,7 @@ localStorage.setItem("cookies", false);
 
 console.log(Boolean(localStorage.getItem("cookies")));
 
-if (!Boolean(localStorage.getItem("cookies"))) {
+if (Boolean(localStorage.getItem("cookies"))) {
     window.addEventListener("DOMContentLoaded", () => {
         modal.showModal();
     });
