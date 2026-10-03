@@ -6,8 +6,10 @@
 
 dialog {
     position: fixed;
-    top: 55vh;
-    left: 155vh;
+    bottom: 2rem;
+    right: 2rem;
+    top: auto;
+    left: auto;
     border: none;
 }
 
