@@ -37,6 +37,12 @@ dialog {
     cursor: pointer;
 }
 
+.inner-container > button:hover {
+    background-color: black;
+    color: white;
+    border-radius: 50px;
+}
+
 .inner-container > img {
     margin-top: 20px;
     margin-left: 40px;
