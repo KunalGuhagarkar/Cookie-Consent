@@ -6,8 +6,8 @@
 
 dialog {
     position: absolute;
-    top: 100%;
-    left: 90%;
+    top: 100vh;
+    left: 100vh;
     border: none;
 }
 
