@@ -61,6 +61,7 @@ dialog {
     font-size: 1.2rem;
     color: white;
     background-color: black;
+    cursor: pointer;
 }
 
 .cookie-container > button:hover {
